@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { MdMenu, MdClose, MdPhone, MdCalendarToday } from "react-icons/md";
 import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const menuItems = [
     { name: "Trang chủ", href: "/" },
@@ -17,6 +19,13 @@ export default function Header() {
     { name: "Tin tức", href: "/tin-tuc" },
     { name: "Liên hệ", href: "/lien-he" },
   ];
+
+  const isActive = (href: string) => {
+    if (href === "/") {
+      return pathname === "/";
+    }
+    return pathname.startsWith(href);
+  };
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
@@ -48,7 +57,11 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className={`font-medium transition-colors ${
+                  isActive(item.href)
+                    ? "text-blue-600 border-b-2 border-blue-600 pb-1"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
               >
                 {item.name}
               </Link>
@@ -87,7 +100,11 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block py-3 text-gray-700 hover:text-blue-600 font-medium"
+                className={`block py-3 font-medium ${
+                  isActive(item.href)
+                    ? "text-blue-600 bg-blue-50 px-4 -mx-4 border-l-4 border-blue-600"
+                    : "text-gray-700 hover:text-blue-600"
+                }`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
