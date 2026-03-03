@@ -6,14 +6,14 @@ import { IoCall } from "react-icons/io5";
 
 export default function ChatWidget() {
   return (
-    <div className="fixed bottom-20 md:bottom-6 right-4 md:right-6 z-40">
+    <div className="fixed bottom-6 md:bottom-6 right-4 md:right-6 z-40">
       {/* Floating label */}
-      <div className="mb-4 md:mb-6 bg-blue-600 text-white px-4 md:px-5 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-bold shadow-xl whitespace-nowrap animate-bounce text-center">
+      <div className="mb-3 md:mb-6 bg-blue-600 text-white px-4 md:px-5 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-bold shadow-xl whitespace-nowrap animate-bounce text-center">
         Liên hệ ngay!
       </div>
 
       {/* Icons group */}
-      <div className="flex flex-col gap-3 md:gap-4 items-end">
+      <div className="flex flex-col gap-2.5 md:gap-4 items-end">
         {/* Zalo Button */}
         <a
           href="https://zalo.me/0123456789"
