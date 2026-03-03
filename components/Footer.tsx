@@ -14,7 +14,7 @@ export default function Footer() {
               Phòng khám Đa khoa uy tín tại Nghệ An, cung cấp dịch vụ y tế chất lượng cao với đội ngũ bác sĩ giàu kinh nghiệm.
             </p>
             <div className="flex gap-3">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-blue-600 p-2 rounded-full hover:bg-blue-700 transition-colors">
+              <a href="https://www.facebook.com/bacsyhaiyen" target="_blank" rel="noopener noreferrer" className="bg-blue-600 p-2 rounded-full hover:bg-blue-700 transition-colors">
                 <FaFacebook size={18} />
               </a>
             </div>
@@ -54,7 +54,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="flex-shrink-0" />
-                <a href="tel:0123456789" className="hover:text-white transition-colors">0123 456 789</a>
+                <a href="tel:0962424567" className="hover:text-white transition-colors">096.242.4567</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="flex-shrink-0" />

@@ -25,10 +25,10 @@ export default function DichVu() {
           <h2 className="text-3xl font-bold mb-4">Cần tư vấn thêm về dịch vụ?</h2>
           <p className="text-xl text-blue-50 mb-8">Liên hệ với chúng tôi để được tư vấn chi tiết</p>
           <a
-            href="tel:0123456789"
+            href="tel:0962424567"
             className="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors"
           >
-            Gọi ngay: 0123 456 789
+            Gọi ngay: 096.242.4567
           </a>
         </div>
       </section>

@@ -16,7 +16,7 @@ export default function ChatWidget() {
       <div className="flex flex-col gap-2.5 md:gap-4 items-end">
         {/* Zalo Button */}
         <a
-          href="https://zalo.me/0123456789"
+          href="https://zalo.me/0962424567"
           target="_blank"
           rel="noopener noreferrer"
           className="group"
@@ -29,7 +29,7 @@ export default function ChatWidget() {
 
         {/* Facebook Messenger Button */}
         <a
-          href="https://m.me/your-facebook-page"
+          href="https://www.facebook.com/bacsyhaiyen"
           target="_blank"
           rel="noopener noreferrer"
           className="group"
@@ -42,7 +42,7 @@ export default function ChatWidget() {
 
         {/* Phone Button with Pulse Animation */}
         <a
-          href="tel:0123456789"
+          href="tel:0962424567"
           className="group relative"
           aria-label="Gọi điện thoại"
         >

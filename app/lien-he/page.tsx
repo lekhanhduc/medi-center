@@ -76,8 +76,7 @@ export default function LienHe() {
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Điện thoại</h3>
                     <p className="text-gray-600">
-                      Hotline: <a href="tel:0123456789" className="text-blue-600 hover:underline">0123 456 789</a><br />
-                      Đặt lịch: <a href="tel:0987654321" className="text-blue-600 hover:underline">0987 654 321</a>
+                      Hotline: <a href="tel:0962424567" className="text-blue-600 hover:underline">096.242.4567</a>
                     </p>
                   </div>
                 </div>

@@ -174,7 +174,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-xs md:text-sm text-blue-200">Hotline</p>
-                    <a href="tel:0123456789" className="font-semibold text-sm md:text-base hover:text-cyan-300 transition-colors">0123 456 789</a>
+                    <a href="tel:0962424567" className="font-semibold text-sm md:text-base hover:text-cyan-300 transition-colors">096.242.4567</a>
                   </div>
                 </div>
               </div>
@@ -208,7 +208,7 @@ export default function Home() {
               <MdPhone className="text-blue-600 flex-shrink-0" size={28} />
               <div>
                 <p className="font-semibold text-gray-900 text-sm md:text-base">Hotline</p>
-                <a href="tel:0123456789" className="text-blue-600 hover:underline font-semibold text-xs md:text-sm">0123 456 789</a>
+                <a href="tel:0962424567" className="text-blue-600 hover:underline font-semibold text-xs md:text-sm">096.242.4567</a>
               </div>
             </div>
           </div>

@@ -57,9 +57,9 @@ export default function Header() {
 
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
-            <a href="tel:0123456789" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 text-sm xl:text-base">
+            <a href="tel:0962424567" className="flex items-center gap-2 text-gray-700 hover:text-blue-600 text-sm xl:text-base">
               <MdPhone size={18} />
-              <span className="font-semibold">0123 456 789</span>
+              <span className="font-semibold">096.242.4567</span>
             </a>
             <Link
               href="/dat-lich"
@@ -95,11 +95,11 @@ export default function Header() {
             ))}
             <div className="pt-4 border-t mt-4 space-y-3">
               <a
-                href="tel:0123456789"
+                href="tel:0962424567"
                 className="flex items-center gap-2 text-gray-700 hover:text-blue-600 font-semibold"
               >
                 <MdPhone size={20} />
-                0123 456 789
+                096.242.4567
               </a>
               <Link
                 href="/dat-lich"
